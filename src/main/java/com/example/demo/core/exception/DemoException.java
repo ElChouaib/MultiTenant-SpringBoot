@@ -1,4 +1,7 @@
 package com.example.demo.core.exception;
 
-public class EntityNotFound extends Exception{
+public class DemoException extends Exception{
+    public DemoException(){
+        super("Entity not found");
+    }
 }

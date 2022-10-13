@@ -20,6 +20,6 @@ public class TenantAuthorizationFilter extends OncePerRequestFilter {
     }
 
     private TenantAuthenticationToken getTenantAuthenticationToken() {
-        return new TenantAuthenticationToken("foo@bar.com", 1);
+        return new TenantAuthenticationToken("Chouaib Elmakhlouk", 2);
     }
 }

@@ -1,5 +1,6 @@
 package com.example.demo.user;
 
+import com.example.demo.core.exception.DemoException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +31,9 @@ public class UserService {
     @Transactional
     public void deleteById(int id) {
         userRepository.deleteById(id);
+    }
+
+    public User getById(int id) throws DemoException {
+       return userRepository.findOneById(id).orElseThrow(DemoException::new);
     }
 }
