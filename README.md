@@ -1,7 +1,7 @@
 # Multitenancy architecture with discriminator column
 *Using Java, Spring Web, Spring Data JPA (Hibernate) and Spring Security.*
 
-## Getting Started
+## Getting Started 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 I wrote an article explaining the main points of the project and how to test: https://link.medium.com/gfmGZTsC43
